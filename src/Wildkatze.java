@@ -2,6 +2,7 @@
 public class Wildkatze extends Tier {
 	
 	private int maeuseloecher; 
+	private final String name= "Wildkatze"; 
 	
 	
 	
@@ -21,6 +22,10 @@ public class Wildkatze extends Tier {
 
 	public void setMaeuseloecher(int maeuseloecher) {
 		this.maeuseloecher = maeuseloecher;
+	}
+	
+	public String getName() {
+		return name;
 	}
 
 

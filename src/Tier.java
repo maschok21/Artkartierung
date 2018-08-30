@@ -6,6 +6,7 @@ public class Tier {
 	private String art;
 	private String populationsstatus;
 	private int alter;
+	protected String name; 
 	
 	
 
@@ -30,7 +31,7 @@ public class Tier {
 	public void setAlter(int alter) {
 		alter = alter;
 	}
-	public String getPolulationsstatus() {
+	public String getPopulationsstatus() {
 		return populationsstatus;
 	}
 	public void setPopulationsstatus(String polulationsstatus) {
@@ -47,6 +48,14 @@ public class Tier {
 	}
 	public void setAnzahl(int anzahl) {
 		this.anzahl = anzahl;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 

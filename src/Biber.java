@@ -2,7 +2,7 @@
 public class Biber extends Tier{
 
 	private String Wasserqualitaet; 
-	
+	private final String name= "Biber"; 
 
 	public Biber() {
 	}
@@ -28,6 +28,16 @@ public class Biber extends Tier{
 	public void setWasserqualitaet(String wasserqualitaet) {
 		Wasserqualitaet = wasserqualitaet;
 	}
+
+
+	public String getName() {
+		return name;
+	}
+	
+
+	
+	
+	
 	
 	
 	
